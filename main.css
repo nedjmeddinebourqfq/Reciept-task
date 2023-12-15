@@ -1,0 +1,68 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C3E50;
+    color: silver;
+    padding: 5px 100px;
+    border-top: solid crimson;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+header .too h2{
+    padding:  0px 0px;
+
+}
+header a {
+ 
+    color: silver;
+    text-decoration:none;
+    margin-right: 5px;
+    font-size: 10px;
+    transition: ease 0.5s;
+}
+header a:hover {
+    color:#1ABC9C;
+}
+header img{
+  
+    border-radius: 70%;
+    width: 7%;
+}
+
+.cursor{
+   
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    padding: 0px 150px;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0, .4);
+    background-position: center;
+    background-size: cover;
+}
+
+.cursor .container{
+    display: flex;
+    padding: 0px 100px;
+}
+.cursor .card{
+    font-size: 30px;
+    margin: 20px;
+    box-shadow: 3px 3px 6px 6px #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+
